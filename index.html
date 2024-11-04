@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/test.png">
+    <title>NASA SEARCH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="index.css" rel="stylesheet /">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet /">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="banner">
+        <img class="nasa-logo" src="images/test.png"
+                alt="NASA's Logo">
+
+        <div class="nasa-text">
+            <h1>NASA SEARCH</h1>
+
+            <h2>An API Client To Search A Database</h2>
+        </div>
+        <form id="form" class="form">
+            <label for="search"> Search Bar </label>
+            <input id="search" class="search1" type="text" placeholder="Search for... (e.g. 'Space')">
+            <input id="searchButton" class="searchButton1" type="submit" value="Submit">
+
+        </form>
+    </div>
+
+    <span id="searchHint" class="searchHint">Please enter a valid search term. </span>
+
+    <div id="loading" class="loadingGif">
+        <img src="images/1484.gif" alt="Loading...">
+    </div>
+
+    <div id="results" class="resultsCSS">
+    </div>
+
+    <div id="noResult" class="noResult">
+        Your search did not match with any images. Please try another search.
+    </div>
+
+    <footer class="footer">
+        <small>All images used are copyright free, in line with the Creative Commons License. Images, API & Logo have
+            been provided by NASA. &copy; 2024, Matthew Young</small>
+    </footer>
+</body>
+
+</html>
